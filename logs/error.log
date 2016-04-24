@@ -32,3 +32,62 @@
 [Sun Apr 24 11:14:01.463638 2016] [:error] [pid 6464] [client 127.0.0.1:48052] PHP   1. {main}() /var/www/mvc.local/index.php:0
 [Sun Apr 24 11:14:01.463646 2016] [:error] [pid 6464] [client 127.0.0.1:48052] PHP   2. Application\\Db->__construct() /var/www/mvc.local/index.php:5
 [Sun Apr 24 11:14:01.463653 2016] [:error] [pid 6464] [client 127.0.0.1:48052] PHP   3. __autoload() /var/www/mvc.local/index.php:10
+[Sun Apr 24 12:53:16.392876 2016] [:error] [pid 8311] [client 127.0.0.1:51228] PHP Fatal error:  Call to undefined method Application\\Db::exec() in /var/www/mvc.local/index.php on line 7
+[Sun Apr 24 12:53:16.392915 2016] [:error] [pid 8311] [client 127.0.0.1:51228] PHP Stack trace:
+[Sun Apr 24 12:53:16.392924 2016] [:error] [pid 8311] [client 127.0.0.1:51228] PHP   1. {main}() /var/www/mvc.local/index.php:0
+[Sun Apr 24 14:18:18.784651 2016] [:error] [pid 8570] [client 127.0.0.1:55540] PHP Warning:  require(/var/www/mvc.local/App/Models/User.php): failed to open stream: No such file or directory in /var/www/mvc.local/autoload.php on line 9
+[Sun Apr 24 14:18:18.795740 2016] [:error] [pid 8570] [client 127.0.0.1:55540] PHP Stack trace:
+[Sun Apr 24 14:18:18.795762 2016] [:error] [pid 8570] [client 127.0.0.1:55540] PHP   1. {main}() /var/www/mvc.local/index.php:0
+[Sun Apr 24 14:18:18.795772 2016] [:error] [pid 8570] [client 127.0.0.1:55540] PHP   2. Application\\Models\\User->findAll() /var/www/mvc.local/index.php:6
+[Sun Apr 24 14:18:18.795779 2016] [:error] [pid 8570] [client 127.0.0.1:55540] PHP   3. Application\\Db->query() /var/www/mvc.local/Application/Models/User.php:19
+[Sun Apr 24 14:18:18.795785 2016] [:error] [pid 8570] [client 127.0.0.1:55540] PHP   4. PDOStatement->fetchAll() /var/www/mvc.local/Application/Db.php:27
+[Sun Apr 24 14:18:18.795790 2016] [:error] [pid 8570] [client 127.0.0.1:55540] PHP   5. __autoload() /var/www/mvc.local/Application/Db.php:27
+[Sun Apr 24 14:18:18.795843 2016] [:error] [pid 8570] [client 127.0.0.1:55540] PHP Fatal error:  require(): Failed opening required '/var/www/mvc.local/App/Models/User.php' (include_path='.:/usr/share/php:/usr/share/pear') in /var/www/mvc.local/autoload.php on line 9
+[Sun Apr 24 14:18:18.795848 2016] [:error] [pid 8570] [client 127.0.0.1:55540] PHP Stack trace:
+[Sun Apr 24 14:18:18.795853 2016] [:error] [pid 8570] [client 127.0.0.1:55540] PHP   1. {main}() /var/www/mvc.local/index.php:0
+[Sun Apr 24 14:18:18.795859 2016] [:error] [pid 8570] [client 127.0.0.1:55540] PHP   2. Application\\Models\\User->findAll() /var/www/mvc.local/index.php:6
+[Sun Apr 24 14:18:18.795865 2016] [:error] [pid 8570] [client 127.0.0.1:55540] PHP   3. Application\\Db->query() /var/www/mvc.local/Application/Models/User.php:19
+[Sun Apr 24 14:18:18.795870 2016] [:error] [pid 8570] [client 127.0.0.1:55540] PHP   4. PDOStatement->fetchAll() /var/www/mvc.local/Application/Db.php:27
+[Sun Apr 24 14:18:18.795875 2016] [:error] [pid 8570] [client 127.0.0.1:55540] PHP   5. __autoload() /var/www/mvc.local/Application/Db.php:27
+[Sun Apr 24 15:12:48.504871 2016] [:error] [pid 8571] [client 127.0.0.1:56984] PHP Warning:  require(/var/www/mvc.local/Application/Models/Db.php): failed to open stream: No such file or directory in /var/www/mvc.local/autoload.php on line 9
+[Sun Apr 24 15:12:48.516586 2016] [:error] [pid 8571] [client 127.0.0.1:56984] PHP Stack trace:
+[Sun Apr 24 15:12:48.516650 2016] [:error] [pid 8571] [client 127.0.0.1:56984] PHP   1. {main}() /var/www/mvc.local/index.php:0
+[Sun Apr 24 15:12:48.516667 2016] [:error] [pid 8571] [client 127.0.0.1:56984] PHP   2. Application\\Models\\Model::findAll() /var/www/mvc.local/index.php:5
+[Sun Apr 24 15:12:48.516722 2016] [:error] [pid 8571] [client 127.0.0.1:56984] PHP   3. __autoload() /var/www/mvc.local/index.php:10
+[Sun Apr 24 15:12:48.516859 2016] [:error] [pid 8571] [client 127.0.0.1:56984] PHP Fatal error:  require(): Failed opening required '/var/www/mvc.local/Application/Models/Db.php' (include_path='.:/usr/share/php:/usr/share/pear') in /var/www/mvc.local/autoload.php on line 9
+[Sun Apr 24 15:12:48.516891 2016] [:error] [pid 8571] [client 127.0.0.1:56984] PHP Stack trace:
+[Sun Apr 24 15:12:48.516906 2016] [:error] [pid 8571] [client 127.0.0.1:56984] PHP   1. {main}() /var/www/mvc.local/index.php:0
+[Sun Apr 24 15:12:48.516912 2016] [:error] [pid 8571] [client 127.0.0.1:56984] PHP   2. Application\\Models\\Model::findAll() /var/www/mvc.local/index.php:5
+[Sun Apr 24 15:12:48.516917 2016] [:error] [pid 8571] [client 127.0.0.1:56984] PHP   3. __autoload() /var/www/mvc.local/index.php:10
+[Sun Apr 24 15:13:31.142532 2016] [:error] [pid 8569] [client 127.0.0.1:57012] PHP Warning:  require(/var/www/mvc.local/Application/Models/Db.php): failed to open stream: No such file or directory in /var/www/mvc.local/autoload.php on line 9
+[Sun Apr 24 15:13:31.142562 2016] [:error] [pid 8569] [client 127.0.0.1:57012] PHP Stack trace:
+[Sun Apr 24 15:13:31.142591 2016] [:error] [pid 8569] [client 127.0.0.1:57012] PHP   1. {main}() /var/www/mvc.local/index.php:0
+[Sun Apr 24 15:13:31.142605 2016] [:error] [pid 8569] [client 127.0.0.1:57012] PHP   2. Application\\Models\\Model::findAll() /var/www/mvc.local/index.php:5
+[Sun Apr 24 15:13:31.142614 2016] [:error] [pid 8569] [client 127.0.0.1:57012] PHP   3. __autoload() /var/www/mvc.local/index.php:12
+[Sun Apr 24 15:13:31.142668 2016] [:error] [pid 8569] [client 127.0.0.1:57012] PHP Fatal error:  require(): Failed opening required '/var/www/mvc.local/Application/Models/Db.php' (include_path='.:/usr/share/php:/usr/share/pear') in /var/www/mvc.local/autoload.php on line 9
+[Sun Apr 24 15:13:31.142676 2016] [:error] [pid 8569] [client 127.0.0.1:57012] PHP Stack trace:
+[Sun Apr 24 15:13:31.142684 2016] [:error] [pid 8569] [client 127.0.0.1:57012] PHP   1. {main}() /var/www/mvc.local/index.php:0
+[Sun Apr 24 15:13:31.142693 2016] [:error] [pid 8569] [client 127.0.0.1:57012] PHP   2. Application\\Models\\Model::findAll() /var/www/mvc.local/index.php:5
+[Sun Apr 24 15:13:31.142701 2016] [:error] [pid 8569] [client 127.0.0.1:57012] PHP   3. __autoload() /var/www/mvc.local/index.php:12
+[Sun Apr 24 15:20:26.208137 2016] [:error] [pid 8570] [client 127.0.0.1:57186] PHP Warning:  require(/var/www/mvc.local/Application/Models/Db.php): failed to open stream: No such file or directory in /var/www/mvc.local/autoload.php on line 9
+[Sun Apr 24 15:20:26.208162 2016] [:error] [pid 8570] [client 127.0.0.1:57186] PHP Stack trace:
+[Sun Apr 24 15:20:26.208174 2016] [:error] [pid 8570] [client 127.0.0.1:57186] PHP   1. {main}() /var/www/mvc.local/index.php:0
+[Sun Apr 24 15:20:26.208184 2016] [:error] [pid 8570] [client 127.0.0.1:57186] PHP   2. Application\\Models\\Model::findAll() /var/www/mvc.local/index.php:5
+[Sun Apr 24 15:20:26.208193 2016] [:error] [pid 8570] [client 127.0.0.1:57186] PHP   3. __autoload() /var/www/mvc.local/index.php:12
+[Sun Apr 24 15:20:26.208246 2016] [:error] [pid 8570] [client 127.0.0.1:57186] PHP Fatal error:  require(): Failed opening required '/var/www/mvc.local/Application/Models/Db.php' (include_path='.:/usr/share/php:/usr/share/pear') in /var/www/mvc.local/autoload.php on line 9
+[Sun Apr 24 15:20:26.208252 2016] [:error] [pid 8570] [client 127.0.0.1:57186] PHP Stack trace:
+[Sun Apr 24 15:20:26.208257 2016] [:error] [pid 8570] [client 127.0.0.1:57186] PHP   1. {main}() /var/www/mvc.local/index.php:0
+[Sun Apr 24 15:20:26.208263 2016] [:error] [pid 8570] [client 127.0.0.1:57186] PHP   2. Application\\Models\\Model::findAll() /var/www/mvc.local/index.php:5
+[Sun Apr 24 15:20:26.208268 2016] [:error] [pid 8570] [client 127.0.0.1:57186] PHP   3. __autoload() /var/www/mvc.local/index.php:12
+[Sun Apr 24 15:21:59.182982 2016] [:error] [pid 8309] [client 127.0.0.1:57236] PHP Warning:  require(/var/www/mvc.local/Application/Models/Model.php): failed to open stream: No such file or directory in /var/www/mvc.local/autoload.php on line 9
+[Sun Apr 24 15:21:59.183021 2016] [:error] [pid 8309] [client 127.0.0.1:57236] PHP Stack trace:
+[Sun Apr 24 15:21:59.183034 2016] [:error] [pid 8309] [client 127.0.0.1:57236] PHP   1. {main}() /var/www/mvc.local/index.php:0
+[Sun Apr 24 15:21:59.183043 2016] [:error] [pid 8309] [client 127.0.0.1:57236] PHP   2. __autoload() /var/www/mvc.local/index.php:5
+[Sun Apr 24 15:21:59.183051 2016] [:error] [pid 8309] [client 127.0.0.1:57236] PHP   3. require() /var/www/mvc.local/autoload.php:9
+[Sun Apr 24 15:21:59.183058 2016] [:error] [pid 8309] [client 127.0.0.1:57236] PHP   4. __autoload() /var/www/mvc.local/autoload.php:7
+[Sun Apr 24 15:21:59.183118 2016] [:error] [pid 8309] [client 127.0.0.1:57236] PHP Fatal error:  require(): Failed opening required '/var/www/mvc.local/Application/Models/Model.php' (include_path='.:/usr/share/php:/usr/share/pear') in /var/www/mvc.local/autoload.php on line 9
+[Sun Apr 24 15:21:59.183127 2016] [:error] [pid 8309] [client 127.0.0.1:57236] PHP Stack trace:
+[Sun Apr 24 15:21:59.183135 2016] [:error] [pid 8309] [client 127.0.0.1:57236] PHP   1. {main}() /var/www/mvc.local/index.php:0
+[Sun Apr 24 15:21:59.183143 2016] [:error] [pid 8309] [client 127.0.0.1:57236] PHP   2. __autoload() /var/www/mvc.local/index.php:5
+[Sun Apr 24 15:21:59.183150 2016] [:error] [pid 8309] [client 127.0.0.1:57236] PHP   3. require() /var/www/mvc.local/autoload.php:9
+[Sun Apr 24 15:21:59.183157 2016] [:error] [pid 8309] [client 127.0.0.1:57236] PHP   4. __autoload() /var/www/mvc.local/autoload.php:7

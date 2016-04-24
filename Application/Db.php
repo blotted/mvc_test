@@ -18,6 +18,16 @@ class Db
         $result = $sth->execute();
         return $result;
     }
+
+    public function query($sql, $class)
+    {
+        $sth = $this->dbh->prepare($sql);
+        $result = $sth->execute();
+        if ($result !== false) {
+            return $sth->fetchAll(\PDO::FETCH_CLASS, $class);
+        }
+        return [];
+    }
 }
 
 
