@@ -1,0 +1,34 @@
+[Sun Apr 24 10:59:33.183644 2016] [:error] [pid 4764] [client 127.0.0.1:47542] PHP Warning:  require(/var/www/mvc.local/ App/Db.php): failed to open stream: No such file or directory in /var/www/mvc.local/autoload.php on line 9
+[Sun Apr 24 10:59:33.183705 2016] [:error] [pid 4764] [client 127.0.0.1:47542] PHP Stack trace:
+[Sun Apr 24 10:59:33.183720 2016] [:error] [pid 4764] [client 127.0.0.1:47542] PHP   1. {main}() /var/www/mvc.local/index.php:0
+[Sun Apr 24 10:59:33.183728 2016] [:error] [pid 4764] [client 127.0.0.1:47542] PHP   2. __autoload() /var/www/mvc.local/index.php:5
+[Sun Apr 24 10:59:33.183789 2016] [:error] [pid 4764] [client 127.0.0.1:47542] PHP Fatal error:  require(): Failed opening required '/var/www/mvc.local/ App/Db.php' (include_path='.:/usr/share/php:/usr/share/pear') in /var/www/mvc.local/autoload.php on line 9
+[Sun Apr 24 10:59:33.183801 2016] [:error] [pid 4764] [client 127.0.0.1:47542] PHP Stack trace:
+[Sun Apr 24 10:59:33.183809 2016] [:error] [pid 4764] [client 127.0.0.1:47542] PHP   1. {main}() /var/www/mvc.local/index.php:0
+[Sun Apr 24 10:59:33.183816 2016] [:error] [pid 4764] [client 127.0.0.1:47542] PHP   2. __autoload() /var/www/mvc.local/index.php:5
+[Sun Apr 24 11:00:08.726954 2016] [:error] [pid 4765] [client 127.0.0.1:47580] PHP Warning:  require(/var/www/mvc.local/App/Db.php): failed to open stream: No such file or directory in /var/www/mvc.local/autoload.php on line 9
+[Sun Apr 24 11:00:08.726987 2016] [:error] [pid 4765] [client 127.0.0.1:47580] PHP Stack trace:
+[Sun Apr 24 11:00:08.726996 2016] [:error] [pid 4765] [client 127.0.0.1:47580] PHP   1. {main}() /var/www/mvc.local/index.php:0
+[Sun Apr 24 11:00:08.727001 2016] [:error] [pid 4765] [client 127.0.0.1:47580] PHP   2. __autoload() /var/www/mvc.local/index.php:5
+[Sun Apr 24 11:00:08.727041 2016] [:error] [pid 4765] [client 127.0.0.1:47580] PHP Fatal error:  require(): Failed opening required '/var/www/mvc.local/App/Db.php' (include_path='.:/usr/share/php:/usr/share/pear') in /var/www/mvc.local/autoload.php on line 9
+[Sun Apr 24 11:00:08.727047 2016] [:error] [pid 4765] [client 127.0.0.1:47580] PHP Stack trace:
+[Sun Apr 24 11:00:08.727052 2016] [:error] [pid 4765] [client 127.0.0.1:47580] PHP   1. {main}() /var/www/mvc.local/index.php:0
+[Sun Apr 24 11:00:08.727057 2016] [:error] [pid 4765] [client 127.0.0.1:47580] PHP   2. __autoload() /var/www/mvc.local/index.php:5
+[Sun Apr 24 11:01:56.853156 2016] [:error] [pid 4761] [client 127.0.0.1:47648] PHP Warning:  require(/var/www/mvc.local/App/Db.php): failed to open stream: No such file or directory in /var/www/mvc.local/autoload.php on line 9
+[Sun Apr 24 11:01:56.853197 2016] [:error] [pid 4761] [client 127.0.0.1:47648] PHP Stack trace:
+[Sun Apr 24 11:01:56.853212 2016] [:error] [pid 4761] [client 127.0.0.1:47648] PHP   1. {main}() /var/www/mvc.local/index.php:0
+[Sun Apr 24 11:01:56.853221 2016] [:error] [pid 4761] [client 127.0.0.1:47648] PHP   2. __autoload() /var/www/mvc.local/index.php:5
+[Sun Apr 24 11:01:56.853279 2016] [:error] [pid 4761] [client 127.0.0.1:47648] PHP Fatal error:  require(): Failed opening required '/var/www/mvc.local/App/Db.php' (include_path='.:/usr/share/php:/usr/share/pear') in /var/www/mvc.local/autoload.php on line 9
+[Sun Apr 24 11:01:56.853289 2016] [:error] [pid 4761] [client 127.0.0.1:47648] PHP Stack trace:
+[Sun Apr 24 11:01:56.853297 2016] [:error] [pid 4761] [client 127.0.0.1:47648] PHP   1. {main}() /var/www/mvc.local/index.php:0
+[Sun Apr 24 11:01:56.853304 2016] [:error] [pid 4761] [client 127.0.0.1:47648] PHP   2. __autoload() /var/www/mvc.local/index.php:5
+[Sun Apr 24 11:14:01.463476 2016] [:error] [pid 6464] [client 127.0.0.1:48052] PHP Warning:  require(/var/www/mvc.local/PDO.php): failed to open stream: No such file or directory in /var/www/mvc.local/autoload.php on line 9
+[Sun Apr 24 11:14:01.463516 2016] [:error] [pid 6464] [client 127.0.0.1:48052] PHP Stack trace:
+[Sun Apr 24 11:14:01.463530 2016] [:error] [pid 6464] [client 127.0.0.1:48052] PHP   1. {main}() /var/www/mvc.local/index.php:0
+[Sun Apr 24 11:14:01.463540 2016] [:error] [pid 6464] [client 127.0.0.1:48052] PHP   2. Application\\Db->__construct() /var/www/mvc.local/index.php:5
+[Sun Apr 24 11:14:01.463558 2016] [:error] [pid 6464] [client 127.0.0.1:48052] PHP   3. __autoload() /var/www/mvc.local/index.php:10
+[Sun Apr 24 11:14:01.463620 2016] [:error] [pid 6464] [client 127.0.0.1:48052] PHP Fatal error:  require(): Failed opening required '/var/www/mvc.local/PDO.php' (include_path='.:/usr/share/php:/usr/share/pear') in /var/www/mvc.local/autoload.php on line 9
+[Sun Apr 24 11:14:01.463630 2016] [:error] [pid 6464] [client 127.0.0.1:48052] PHP Stack trace:
+[Sun Apr 24 11:14:01.463638 2016] [:error] [pid 6464] [client 127.0.0.1:48052] PHP   1. {main}() /var/www/mvc.local/index.php:0
+[Sun Apr 24 11:14:01.463646 2016] [:error] [pid 6464] [client 127.0.0.1:48052] PHP   2. Application\\Db->__construct() /var/www/mvc.local/index.php:5
+[Sun Apr 24 11:14:01.463653 2016] [:error] [pid 6464] [client 127.0.0.1:48052] PHP   3. __autoload() /var/www/mvc.local/index.php:10
