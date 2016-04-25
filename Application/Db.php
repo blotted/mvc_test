@@ -11,7 +11,11 @@ class Db
 
     protected function __construct()
     {
-        $this->dbh = new \PDO('mysql:host=127.0.0.1;dbname=mvc_test', 'root', 'root');
+        try {
+            $this->dbh = new \PDO('mysql:host=127.0.0.1;dbname=mvc_test', 'root', 'root');
+        } catch(\PDOException $e) {
+            throw new \Application\Exceptions\Db('Exception message');
+        }
     }
 
     public function execute($sql, $params = [])

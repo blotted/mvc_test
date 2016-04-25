@@ -293,3 +293,19 @@
 [Mon Apr 25 12:49:12.503543 2016] [:error] [pid 7683] [client 127.0.0.1:45254] PHP Stack trace:
 [Mon Apr 25 12:49:12.503559 2016] [:error] [pid 7683] [client 127.0.0.1:45254] PHP   1. {main}() /var/www/mvc.local/index.php:0
 [Mon Apr 25 12:49:12.503571 2016] [:error] [pid 7683] [client 127.0.0.1:45254] PHP   2. Application\\Controllers\\News->action() /var/www/mvc.local/index.php:8
+[Mon Apr 25 20:28:25.951254 2016] [:error] [pid 17938] [client 127.0.0.1:57382] PHP Notice:  Undefined variable: news in /var/www/mvc.local/Application/templates/create.php on line 30
+[Mon Apr 25 20:28:26.027556 2016] [:error] [pid 17938] [client 127.0.0.1:57382] PHP Stack trace:
+[Mon Apr 25 20:28:26.027729 2016] [:error] [pid 17938] [client 127.0.0.1:57382] PHP   1. {main}() /var/www/mvc.local/index.php:0
+[Mon Apr 25 20:28:26.027740 2016] [:error] [pid 17938] [client 127.0.0.1:57382] PHP   2. Application\\Controllers\\News->action() /var/www/mvc.local/index.php:12
+[Mon Apr 25 20:28:26.027747 2016] [:error] [pid 17938] [client 127.0.0.1:57382] PHP   3. Application\\Controllers\\News->actionCreate() /var/www/mvc.local/Application/Controllers/News.php:24
+[Mon Apr 25 20:28:26.027754 2016] [:error] [pid 17938] [client 127.0.0.1:57382] PHP   4. Application\\View->display() /var/www/mvc.local/Application/Controllers/News.php:58
+[Mon Apr 25 20:28:26.027760 2016] [:error] [pid 17938] [client 127.0.0.1:57382] PHP   5. Application\\View->render() /var/www/mvc.local/Application/View.php:36
+[Mon Apr 25 20:28:26.027765 2016] [:error] [pid 17938] [client 127.0.0.1:57382] PHP   6. include() /var/www/mvc.local/Application/View.php:28
+[Mon Apr 25 20:28:26.027823 2016] [:error] [pid 17938] [client 127.0.0.1:57382] PHP Warning:  Invalid argument supplied for foreach() in /var/www/mvc.local/Application/templates/create.php on line 30
+[Mon Apr 25 20:28:26.027828 2016] [:error] [pid 17938] [client 127.0.0.1:57382] PHP Stack trace:
+[Mon Apr 25 20:28:26.027834 2016] [:error] [pid 17938] [client 127.0.0.1:57382] PHP   1. {main}() /var/www/mvc.local/index.php:0
+[Mon Apr 25 20:28:26.027842 2016] [:error] [pid 17938] [client 127.0.0.1:57382] PHP   2. Application\\Controllers\\News->action() /var/www/mvc.local/index.php:12
+[Mon Apr 25 20:28:26.027872 2016] [:error] [pid 17938] [client 127.0.0.1:57382] PHP   3. Application\\Controllers\\News->actionCreate() /var/www/mvc.local/Application/Controllers/News.php:24
+[Mon Apr 25 20:28:26.027878 2016] [:error] [pid 17938] [client 127.0.0.1:57382] PHP   4. Application\\View->display() /var/www/mvc.local/Application/Controllers/News.php:58
+[Mon Apr 25 20:28:26.027883 2016] [:error] [pid 17938] [client 127.0.0.1:57382] PHP   5. Application\\View->render() /var/www/mvc.local/Application/View.php:36
+[Mon Apr 25 20:28:26.027888 2016] [:error] [pid 17938] [client 127.0.0.1:57382] PHP   6. include() /var/www/mvc.local/Application/View.php:28

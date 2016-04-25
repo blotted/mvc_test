@@ -3,6 +3,9 @@
 namespace Application\Controllers;
 
 
+use Application\Exceptions\Core;
+use Application\Models\Author;
+use Application\MultiException;
 use Application\View;
 
 class News
@@ -23,6 +26,8 @@ class News
 
     protected function beforeAction()
     {
+       // $e = new Core('Exception message');
+       // throw $e;
     }
 
     protected function actionIndex()
@@ -39,5 +44,17 @@ class News
         $this->view->article = \Application\Models\News::findById($id);
 
         $this->view->display(__DIR__ . '/../templates/page.php');
+    }
+
+    protected function actionCreate()
+    {
+        try {
+           $article = new \Application\Models\News();
+           $article->fill([]);
+           $article->save();
+        } catch(MultiException $e) {
+           $this->view->errors = $e;
+        }
+        $this->view->display(__DIR__ . '/../templates/create.php');
     }
 }

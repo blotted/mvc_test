@@ -48,7 +48,7 @@ abstract class Model
                 continue;
             }
             $columns[] = $k;
-            $values[':'.$k] = $v;
+            $values[':' . $k] = $v;
         }
 
         $sql = 'INSERT INTO ' . static::TABLE . ' (' . implode(',', $columns) . ')
@@ -58,45 +58,16 @@ abstract class Model
         $db->execute($sql, $values);
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    public function fill($data = [])
+    {
+        $e = new MultiException();
+        if (true) {
+            $e[] = new \Exception('Title is wrong');
+        }
+        if (true) {
+            $e[] = new \Exception('Text is wrong');
+        }
+        throw $e;
+    }
 
 }
