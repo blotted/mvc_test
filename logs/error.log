@@ -143,3 +143,153 @@
 [Sun Apr 24 21:11:33.359463 2016] [:error] [pid 8326] [client 127.0.0.1:37504] PHP Stack trace:
 [Sun Apr 24 21:11:33.359471 2016] [:error] [pid 8326] [client 127.0.0.1:37504] PHP   1. {main}() /var/www/mvc.local/index.php:0
 [Sun Apr 24 21:11:33.359476 2016] [:error] [pid 8326] [client 127.0.0.1:37504] PHP   2. require() /var/www/mvc.local/index.php:5
+[Mon Apr 25 10:57:24.084116 2016] [:error] [pid 7683] [client 127.0.0.1:40362] PHP Warning:  Missing argument 3 for Application\\Db::query(), called in /var/www/mvc.local/Application/Model.php on line 18 and defined in /var/www/mvc.local/Application/Db.php on line 24
+[Mon Apr 25 10:57:24.173861 2016] [:error] [pid 7683] [client 127.0.0.1:40362] PHP Stack trace:
+[Mon Apr 25 10:57:24.173893 2016] [:error] [pid 7683] [client 127.0.0.1:40362] PHP   1. {main}() /var/www/mvc.local/index.php:0
+[Mon Apr 25 10:57:24.173905 2016] [:error] [pid 7683] [client 127.0.0.1:40362] PHP   2. Application\\Model::findAll() /var/www/mvc.local/index.php:5
+[Mon Apr 25 10:57:24.173915 2016] [:error] [pid 7683] [client 127.0.0.1:40362] PHP   3. Application\\Db->query() /var/www/mvc.local/Application/Model.php:18
+[Mon Apr 25 10:57:24.174034 2016] [:error] [pid 7683] [client 127.0.0.1:40362] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /var/www/mvc.local/Application/Db.php on line 27
+[Mon Apr 25 10:57:24.174045 2016] [:error] [pid 7683] [client 127.0.0.1:40362] PHP Stack trace:
+[Mon Apr 25 10:57:24.174055 2016] [:error] [pid 7683] [client 127.0.0.1:40362] PHP   1. {main}() /var/www/mvc.local/index.php:0
+[Mon Apr 25 10:57:24.174067 2016] [:error] [pid 7683] [client 127.0.0.1:40362] PHP   2. Application\\Model::findAll() /var/www/mvc.local/index.php:5
+[Mon Apr 25 10:57:24.174079 2016] [:error] [pid 7683] [client 127.0.0.1:40362] PHP   3. Application\\Db->query() /var/www/mvc.local/Application/Model.php:18
+[Mon Apr 25 10:57:24.174090 2016] [:error] [pid 7683] [client 127.0.0.1:40362] PHP   4. PDOStatement->execute() /var/www/mvc.local/Application/Db.php:27
+[Mon Apr 25 10:57:24.174168 2016] [:error] [pid 7683] [client 127.0.0.1:40362] PHP Notice:  Undefined offset: 0 in /var/www/mvc.local/index.php on line 6
+[Mon Apr 25 10:57:24.174178 2016] [:error] [pid 7683] [client 127.0.0.1:40362] PHP Stack trace:
+[Mon Apr 25 10:57:24.174190 2016] [:error] [pid 7683] [client 127.0.0.1:40362] PHP   1. {main}() /var/www/mvc.local/index.php:0
+[Mon Apr 25 10:57:24.174245 2016] [:error] [pid 7683] [client 127.0.0.1:40362] PHP Notice:  Trying to get property of non-object in /var/www/mvc.local/index.php on line 6
+[Mon Apr 25 10:57:24.174254 2016] [:error] [pid 7683] [client 127.0.0.1:40362] PHP Stack trace:
+[Mon Apr 25 10:57:24.174264 2016] [:error] [pid 7683] [client 127.0.0.1:40362] PHP   1. {main}() /var/www/mvc.local/index.php:0
+[Mon Apr 25 10:58:59.872647 2016] [:error] [pid 7680] [client 127.0.0.1:40418] PHP Warning:  Missing argument 3 for Application\\Db::query(), called in /var/www/mvc.local/Application/Model.php on line 18 and defined in /var/www/mvc.local/Application/Db.php on line 24
+[Mon Apr 25 10:58:59.872697 2016] [:error] [pid 7680] [client 127.0.0.1:40418] PHP Stack trace:
+[Mon Apr 25 10:58:59.872723 2016] [:error] [pid 7680] [client 127.0.0.1:40418] PHP   1. {main}() /var/www/mvc.local/index.php:0
+[Mon Apr 25 10:58:59.872732 2016] [:error] [pid 7680] [client 127.0.0.1:40418] PHP   2. Application\\Model::findAll() /var/www/mvc.local/index.php:5
+[Mon Apr 25 10:58:59.872742 2016] [:error] [pid 7680] [client 127.0.0.1:40418] PHP   3. Application\\Db->query() /var/www/mvc.local/Application/Model.php:18
+[Mon Apr 25 10:58:59.872813 2016] [:error] [pid 7680] [client 127.0.0.1:40418] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /var/www/mvc.local/Application/Db.php on line 27
+[Mon Apr 25 10:58:59.872820 2016] [:error] [pid 7680] [client 127.0.0.1:40418] PHP Stack trace:
+[Mon Apr 25 10:58:59.872826 2016] [:error] [pid 7680] [client 127.0.0.1:40418] PHP   1. {main}() /var/www/mvc.local/index.php:0
+[Mon Apr 25 10:58:59.872832 2016] [:error] [pid 7680] [client 127.0.0.1:40418] PHP   2. Application\\Model::findAll() /var/www/mvc.local/index.php:5
+[Mon Apr 25 10:58:59.872837 2016] [:error] [pid 7680] [client 127.0.0.1:40418] PHP   3. Application\\Db->query() /var/www/mvc.local/Application/Model.php:18
+[Mon Apr 25 10:58:59.872843 2016] [:error] [pid 7680] [client 127.0.0.1:40418] PHP   4. PDOStatement->execute() /var/www/mvc.local/Application/Db.php:27
+[Mon Apr 25 10:58:59.872889 2016] [:error] [pid 7680] [client 127.0.0.1:40418] PHP Notice:  Undefined offset: 0 in /var/www/mvc.local/index.php on line 6
+[Mon Apr 25 10:58:59.872894 2016] [:error] [pid 7680] [client 127.0.0.1:40418] PHP Stack trace:
+[Mon Apr 25 10:58:59.872900 2016] [:error] [pid 7680] [client 127.0.0.1:40418] PHP   1. {main}() /var/www/mvc.local/index.php:0
+[Mon Apr 25 10:58:59.872926 2016] [:error] [pid 7680] [client 127.0.0.1:40418] PHP Notice:  Trying to get property of non-object in /var/www/mvc.local/index.php on line 6
+[Mon Apr 25 10:58:59.872930 2016] [:error] [pid 7680] [client 127.0.0.1:40418] PHP Stack trace:
+[Mon Apr 25 10:58:59.872935 2016] [:error] [pid 7680] [client 127.0.0.1:40418] PHP   1. {main}() /var/www/mvc.local/index.php:0
+[Mon Apr 25 10:59:50.751594 2016] [:error] [pid 3322] [client 127.0.0.1:40454] PHP Warning:  Missing argument 3 for Application\\Db::query(), called in /var/www/mvc.local/Application/Model.php on line 18 and defined in /var/www/mvc.local/Application/Db.php on line 24
+[Mon Apr 25 10:59:50.751650 2016] [:error] [pid 3322] [client 127.0.0.1:40454] PHP Stack trace:
+[Mon Apr 25 10:59:50.751667 2016] [:error] [pid 3322] [client 127.0.0.1:40454] PHP   1. {main}() /var/www/mvc.local/index.php:0
+[Mon Apr 25 10:59:50.751677 2016] [:error] [pid 3322] [client 127.0.0.1:40454] PHP   2. Application\\Model::findAll() /var/www/mvc.local/index.php:5
+[Mon Apr 25 10:59:50.751687 2016] [:error] [pid 3322] [client 127.0.0.1:40454] PHP   3. Application\\Db->query() /var/www/mvc.local/Application/Model.php:18
+[Mon Apr 25 10:59:50.751760 2016] [:error] [pid 3322] [client 127.0.0.1:40454] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /var/www/mvc.local/Application/Db.php on line 27
+[Mon Apr 25 10:59:50.751768 2016] [:error] [pid 3322] [client 127.0.0.1:40454] PHP Stack trace:
+[Mon Apr 25 10:59:50.751775 2016] [:error] [pid 3322] [client 127.0.0.1:40454] PHP   1. {main}() /var/www/mvc.local/index.php:0
+[Mon Apr 25 10:59:50.751784 2016] [:error] [pid 3322] [client 127.0.0.1:40454] PHP   2. Application\\Model::findAll() /var/www/mvc.local/index.php:5
+[Mon Apr 25 10:59:50.751793 2016] [:error] [pid 3322] [client 127.0.0.1:40454] PHP   3. Application\\Db->query() /var/www/mvc.local/Application/Model.php:18
+[Mon Apr 25 10:59:50.751800 2016] [:error] [pid 3322] [client 127.0.0.1:40454] PHP   4. PDOStatement->execute() /var/www/mvc.local/Application/Db.php:27
+[Mon Apr 25 10:59:50.751858 2016] [:error] [pid 3322] [client 127.0.0.1:40454] PHP Notice:  Undefined offset: 0 in /var/www/mvc.local/index.php on line 6
+[Mon Apr 25 10:59:50.751864 2016] [:error] [pid 3322] [client 127.0.0.1:40454] PHP Stack trace:
+[Mon Apr 25 10:59:50.751873 2016] [:error] [pid 3322] [client 127.0.0.1:40454] PHP   1. {main}() /var/www/mvc.local/index.php:0
+[Mon Apr 25 10:59:50.751918 2016] [:error] [pid 3322] [client 127.0.0.1:40454] PHP Notice:  Trying to get property of non-object in /var/www/mvc.local/index.php on line 6
+[Mon Apr 25 10:59:50.751926 2016] [:error] [pid 3322] [client 127.0.0.1:40454] PHP Stack trace:
+[Mon Apr 25 10:59:50.751932 2016] [:error] [pid 3322] [client 127.0.0.1:40454] PHP   1. {main}() /var/www/mvc.local/index.php:0
+[Mon Apr 25 10:59:53.246776 2016] [:error] [pid 3322] [client 127.0.0.1:40454] PHP Warning:  Missing argument 3 for Application\\Db::query(), called in /var/www/mvc.local/Application/Model.php on line 18 and defined in /var/www/mvc.local/Application/Db.php on line 24
+[Mon Apr 25 10:59:53.246817 2016] [:error] [pid 3322] [client 127.0.0.1:40454] PHP Stack trace:
+[Mon Apr 25 10:59:53.246834 2016] [:error] [pid 3322] [client 127.0.0.1:40454] PHP   1. {main}() /var/www/mvc.local/index.php:0
+[Mon Apr 25 10:59:53.246847 2016] [:error] [pid 3322] [client 127.0.0.1:40454] PHP   2. Application\\Model::findAll() /var/www/mvc.local/index.php:5
+[Mon Apr 25 10:59:53.246860 2016] [:error] [pid 3322] [client 127.0.0.1:40454] PHP   3. Application\\Db->query() /var/www/mvc.local/Application/Model.php:18
+[Mon Apr 25 10:59:53.246951 2016] [:error] [pid 3322] [client 127.0.0.1:40454] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /var/www/mvc.local/Application/Db.php on line 27
+[Mon Apr 25 10:59:53.246962 2016] [:error] [pid 3322] [client 127.0.0.1:40454] PHP Stack trace:
+[Mon Apr 25 10:59:53.246972 2016] [:error] [pid 3322] [client 127.0.0.1:40454] PHP   1. {main}() /var/www/mvc.local/index.php:0
+[Mon Apr 25 10:59:53.246982 2016] [:error] [pid 3322] [client 127.0.0.1:40454] PHP   2. Application\\Model::findAll() /var/www/mvc.local/index.php:5
+[Mon Apr 25 10:59:53.246993 2016] [:error] [pid 3322] [client 127.0.0.1:40454] PHP   3. Application\\Db->query() /var/www/mvc.local/Application/Model.php:18
+[Mon Apr 25 10:59:53.247002 2016] [:error] [pid 3322] [client 127.0.0.1:40454] PHP   4. PDOStatement->execute() /var/www/mvc.local/Application/Db.php:27
+[Mon Apr 25 10:59:53.247073 2016] [:error] [pid 3322] [client 127.0.0.1:40454] PHP Notice:  Undefined offset: 0 in /var/www/mvc.local/index.php on line 6
+[Mon Apr 25 10:59:53.247081 2016] [:error] [pid 3322] [client 127.0.0.1:40454] PHP Stack trace:
+[Mon Apr 25 10:59:53.247087 2016] [:error] [pid 3322] [client 127.0.0.1:40454] PHP   1. {main}() /var/www/mvc.local/index.php:0
+[Mon Apr 25 10:59:53.247120 2016] [:error] [pid 3322] [client 127.0.0.1:40454] PHP Notice:  Trying to get property of non-object in /var/www/mvc.local/index.php on line 6
+[Mon Apr 25 10:59:53.247125 2016] [:error] [pid 3322] [client 127.0.0.1:40454] PHP Stack trace:
+[Mon Apr 25 10:59:53.247129 2016] [:error] [pid 3322] [client 127.0.0.1:40454] PHP   1. {main}() /var/www/mvc.local/index.php:0
+[Mon Apr 25 11:02:58.032709 2016] [:error] [pid 3321] [client 127.0.0.1:40572] PHP Notice:  Undefined offset: 3 in /var/www/mvc.local/index.php on line 6
+[Mon Apr 25 11:02:58.032754 2016] [:error] [pid 3321] [client 127.0.0.1:40572] PHP Stack trace:
+[Mon Apr 25 11:02:58.032768 2016] [:error] [pid 3321] [client 127.0.0.1:40572] PHP   1. {main}() /var/www/mvc.local/index.php:0
+[Mon Apr 25 11:02:58.032813 2016] [:error] [pid 3321] [client 127.0.0.1:40572] PHP Notice:  Trying to get property of non-object in /var/www/mvc.local/index.php on line 6
+[Mon Apr 25 11:02:58.032824 2016] [:error] [pid 3321] [client 127.0.0.1:40572] PHP Stack trace:
+[Mon Apr 25 11:02:58.032833 2016] [:error] [pid 3321] [client 127.0.0.1:40572] PHP   1. {main}() /var/www/mvc.local/index.php:0
+[Mon Apr 25 11:10:53.124106 2016] [:error] [pid 7675] [client 127.0.0.1:40790] PHP Warning:  include(/var/www/mvc.localApplication/templates/index.php): failed to open stream: No such file or directory in /var/www/mvc.local/Application/View.php on line 28
+[Mon Apr 25 11:10:53.124152 2016] [:error] [pid 7675] [client 127.0.0.1:40790] PHP Stack trace:
+[Mon Apr 25 11:10:53.124176 2016] [:error] [pid 7675] [client 127.0.0.1:40790] PHP   1. {main}() /var/www/mvc.local/index.php:0
+[Mon Apr 25 11:10:53.124187 2016] [:error] [pid 7675] [client 127.0.0.1:40790] PHP   2. Application\\View->display() /var/www/mvc.local/index.php:10
+[Mon Apr 25 11:10:53.124195 2016] [:error] [pid 7675] [client 127.0.0.1:40790] PHP   3. Application\\View->render() /var/www/mvc.local/Application/View.php:36
+[Mon Apr 25 11:10:53.124263 2016] [:error] [pid 7675] [client 127.0.0.1:40790] PHP Warning:  include(): Failed opening '/var/www/mvc.localApplication/templates/index.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /var/www/mvc.local/Application/View.php on line 28
+[Mon Apr 25 11:10:53.124270 2016] [:error] [pid 7675] [client 127.0.0.1:40790] PHP Stack trace:
+[Mon Apr 25 11:10:53.124275 2016] [:error] [pid 7675] [client 127.0.0.1:40790] PHP   1. {main}() /var/www/mvc.local/index.php:0
+[Mon Apr 25 11:10:53.124281 2016] [:error] [pid 7675] [client 127.0.0.1:40790] PHP   2. Application\\View->display() /var/www/mvc.local/index.php:10
+[Mon Apr 25 11:10:53.124286 2016] [:error] [pid 7675] [client 127.0.0.1:40790] PHP   3. Application\\View->render() /var/www/mvc.local/Application/View.php:36
+[Mon Apr 25 11:18:25.968012 2016] [:error] [pid 5735] [client 127.0.0.1:41046] PHP Notice:  Trying to get property of non-object in /var/www/mvc.local/Application/templates/index.php on line 28
+[Mon Apr 25 11:18:25.968054 2016] [:error] [pid 5735] [client 127.0.0.1:41046] PHP Stack trace:
+[Mon Apr 25 11:18:25.968066 2016] [:error] [pid 5735] [client 127.0.0.1:41046] PHP   1. {main}() /var/www/mvc.local/index.php:0
+[Mon Apr 25 11:18:25.968074 2016] [:error] [pid 5735] [client 127.0.0.1:41046] PHP   2. Application\\View->display() /var/www/mvc.local/index.php:10
+[Mon Apr 25 11:18:25.968080 2016] [:error] [pid 5735] [client 127.0.0.1:41046] PHP   3. Application\\View->render() /var/www/mvc.local/Application/View.php:36
+[Mon Apr 25 11:18:25.968085 2016] [:error] [pid 5735] [client 127.0.0.1:41046] PHP   4. include() /var/www/mvc.local/Application/View.php:28
+[Mon Apr 25 11:18:25.968330 2016] [:error] [pid 5735] [client 127.0.0.1:41046] PHP Notice:  Trying to get property of non-object in /var/www/mvc.local/Application/templates/index.php on line 28
+[Mon Apr 25 11:18:25.968345 2016] [:error] [pid 5735] [client 127.0.0.1:41046] PHP Stack trace:
+[Mon Apr 25 11:18:25.968355 2016] [:error] [pid 5735] [client 127.0.0.1:41046] PHP   1. {main}() /var/www/mvc.local/index.php:0
+[Mon Apr 25 11:18:25.968363 2016] [:error] [pid 5735] [client 127.0.0.1:41046] PHP   2. Application\\View->display() /var/www/mvc.local/index.php:10
+[Mon Apr 25 11:18:25.968372 2016] [:error] [pid 5735] [client 127.0.0.1:41046] PHP   3. Application\\View->render() /var/www/mvc.local/Application/View.php:36
+[Mon Apr 25 11:18:25.968379 2016] [:error] [pid 5735] [client 127.0.0.1:41046] PHP   4. include() /var/www/mvc.local/Application/View.php:28
+[Mon Apr 25 11:20:10.976795 2016] [:error] [pid 3321] [client 127.0.0.1:41112] PHP Notice:  Undefined index: name in /var/www/mvc.local/Application/templates/index.php on line 28
+[Mon Apr 25 11:20:10.976835 2016] [:error] [pid 3321] [client 127.0.0.1:41112] PHP Stack trace:
+[Mon Apr 25 11:20:10.976846 2016] [:error] [pid 3321] [client 127.0.0.1:41112] PHP   1. {main}() /var/www/mvc.local/index.php:0
+[Mon Apr 25 11:20:10.976857 2016] [:error] [pid 3321] [client 127.0.0.1:41112] PHP   2. Application\\View->display() /var/www/mvc.local/index.php:10
+[Mon Apr 25 11:20:10.976866 2016] [:error] [pid 3321] [client 127.0.0.1:41112] PHP   3. Application\\View->render() /var/www/mvc.local/Application/View.php:36
+[Mon Apr 25 11:20:10.976874 2016] [:error] [pid 3321] [client 127.0.0.1:41112] PHP   4. include() /var/www/mvc.local/Application/View.php:28
+[Mon Apr 25 11:20:10.977131 2016] [:error] [pid 3321] [client 127.0.0.1:41112] PHP Notice:  Undefined index: name in /var/www/mvc.local/Application/templates/index.php on line 28
+[Mon Apr 25 11:20:10.977147 2016] [:error] [pid 3321] [client 127.0.0.1:41112] PHP Stack trace:
+[Mon Apr 25 11:20:10.977173 2016] [:error] [pid 3321] [client 127.0.0.1:41112] PHP   1. {main}() /var/www/mvc.local/index.php:0
+[Mon Apr 25 11:20:10.977183 2016] [:error] [pid 3321] [client 127.0.0.1:41112] PHP   2. Application\\View->display() /var/www/mvc.local/index.php:10
+[Mon Apr 25 11:20:10.977191 2016] [:error] [pid 3321] [client 127.0.0.1:41112] PHP   3. Application\\View->render() /var/www/mvc.local/Application/View.php:36
+[Mon Apr 25 11:20:10.977198 2016] [:error] [pid 3321] [client 127.0.0.1:41112] PHP   4. include() /var/www/mvc.local/Application/View.php:28
+[Mon Apr 25 11:23:41.804985 2016] [:error] [pid 7680] [client 127.0.0.1:41232] PHP Notice:  Undefined offset: 0 in /var/www/mvc.local/Application/Model.php on line 29
+[Mon Apr 25 11:23:41.805019 2016] [:error] [pid 7680] [client 127.0.0.1:41232] PHP Stack trace:
+[Mon Apr 25 11:23:41.805032 2016] [:error] [pid 7680] [client 127.0.0.1:41232] PHP   1. {main}() /var/www/mvc.local/index.php:0
+[Mon Apr 25 11:23:41.805044 2016] [:error] [pid 7680] [client 127.0.0.1:41232] PHP   2. Application\\View->display() /var/www/mvc.local/index.php:10
+[Mon Apr 25 11:23:41.805054 2016] [:error] [pid 7680] [client 127.0.0.1:41232] PHP   3. Application\\View->render() /var/www/mvc.local/Application/View.php:36
+[Mon Apr 25 11:23:41.805062 2016] [:error] [pid 7680] [client 127.0.0.1:41232] PHP   4. include() /var/www/mvc.local/Application/View.php:28
+[Mon Apr 25 11:23:41.805072 2016] [:error] [pid 7680] [client 127.0.0.1:41232] PHP   5. Application\\Models\\News->__get() /var/www/mvc.local/Application/View.php:27
+[Mon Apr 25 11:23:41.805081 2016] [:error] [pid 7680] [client 127.0.0.1:41232] PHP   6. Application\\Model::findById() /var/www/mvc.local/Application/Models/News.php:27
+[Mon Apr 25 12:23:32.326829 2016] [:error] [pid 7683] [client 127.0.0.1:44346] PHP Fatal error:  Call to undefined function actionIndex() in /var/www/mvc.local/Application/Controllers/News.php on line 20
+[Mon Apr 25 12:23:32.372334 2016] [:error] [pid 7683] [client 127.0.0.1:44346] PHP Stack trace:
+[Mon Apr 25 12:23:32.372364 2016] [:error] [pid 7683] [client 127.0.0.1:44346] PHP   1. {main}() /var/www/mvc.local/index.php:0
+[Mon Apr 25 12:23:32.372374 2016] [:error] [pid 7683] [client 127.0.0.1:44346] PHP   2. Application\\Controllers\\News->action() /var/www/mvc.local/index.php:5
+[Mon Apr 25 12:25:59.799371 2016] [:error] [pid 3322] [client 127.0.0.1:44418] PHP Fatal error:  Call to undefined function actionIndex() in /var/www/mvc.local/Application/Controllers/News.php on line 20
+[Mon Apr 25 12:25:59.799410 2016] [:error] [pid 3322] [client 127.0.0.1:44418] PHP Stack trace:
+[Mon Apr 25 12:25:59.799423 2016] [:error] [pid 3322] [client 127.0.0.1:44418] PHP   1. {main}() /var/www/mvc.local/index.php:0
+[Mon Apr 25 12:25:59.799432 2016] [:error] [pid 3322] [client 127.0.0.1:44418] PHP   2. Application\\Controllers\\News->action() /var/www/mvc.local/index.php:5
+[Mon Apr 25 12:36:42.493789 2016] [:error] [pid 3320] [client 127.0.0.1:44730] script '/var/www/mvc.local/page.php' not found or unable to stat
+[Mon Apr 25 12:37:16.530462 2016] [:error] [pid 7680] [client 127.0.0.1:44776] script '/var/www/mvc.local/page.php' not found or unable to stat
+[Mon Apr 25 12:44:23.030064 2016] [:error] [pid 5735] [client 127.0.0.1:44986] PHP Notice:  Undefined index: action in /var/www/mvc.local/index.php on line 6
+[Mon Apr 25 12:44:23.030103 2016] [:error] [pid 5735] [client 127.0.0.1:44986] PHP Stack trace:
+[Mon Apr 25 12:44:23.030118 2016] [:error] [pid 5735] [client 127.0.0.1:44986] PHP   1. {main}() /var/www/mvc.local/index.php:0
+[Mon Apr 25 12:45:02.697998 2016] [:error] [pid 3321] [client 127.0.0.1:45022] PHP Notice:  Undefined index: action in /var/www/mvc.local/index.php on line 6
+[Mon Apr 25 12:45:02.698039 2016] [:error] [pid 3321] [client 127.0.0.1:45022] PHP Stack trace:
+[Mon Apr 25 12:45:02.698053 2016] [:error] [pid 3321] [client 127.0.0.1:45022] PHP   1. {main}() /var/www/mvc.local/index.php:0
+[Mon Apr 25 12:45:40.641187 2016] [:error] [pid 3318] [client 127.0.0.1:45052] PHP Notice:  Undefined index: action in /var/www/mvc.local/index.php on line 6
+[Mon Apr 25 12:45:40.641242 2016] [:error] [pid 3318] [client 127.0.0.1:45052] PHP Stack trace:
+[Mon Apr 25 12:45:40.641255 2016] [:error] [pid 3318] [client 127.0.0.1:45052] PHP   1. {main}() /var/www/mvc.local/index.php:0
+[Mon Apr 25 12:46:08.509406 2016] [:error] [pid 7675] [client 127.0.0.1:45076] PHP Notice:  Undefined index: action in /var/www/mvc.local/index.php on line 6
+[Mon Apr 25 12:46:08.509442 2016] [:error] [pid 7675] [client 127.0.0.1:45076] PHP Stack trace:
+[Mon Apr 25 12:46:08.509453 2016] [:error] [pid 7675] [client 127.0.0.1:45076] PHP   1. {main}() /var/www/mvc.local/index.php:0
+[Mon Apr 25 12:46:17.894256 2016] [:error] [pid 7683] [client 127.0.0.1:45080] PHP Notice:  Undefined index: action in /var/www/mvc.local/index.php on line 6
+[Mon Apr 25 12:46:17.894302 2016] [:error] [pid 7683] [client 127.0.0.1:45080] PHP Stack trace:
+[Mon Apr 25 12:46:17.894316 2016] [:error] [pid 7683] [client 127.0.0.1:45080] PHP   1. {main}() /var/www/mvc.local/index.php:0
+[Mon Apr 25 12:46:19.374508 2016] [:error] [pid 7683] [client 127.0.0.1:45080] script '/var/www/mvc.local/page.php' not found or unable to stat
+[Mon Apr 25 12:46:23.598525 2016] [:error] [pid 7683] [client 127.0.0.1:45080] script '/var/www/mvc.local/page.php' not found or unable to stat
+[Mon Apr 25 12:47:05.817082 2016] [:error] [pid 3322] [client 127.0.0.1:45130] PHP Notice:  Undefined index: action in /var/www/mvc.local/index.php on line 6
+[Mon Apr 25 12:47:05.817115 2016] [:error] [pid 3322] [client 127.0.0.1:45130] PHP Stack trace:
+[Mon Apr 25 12:47:05.817127 2016] [:error] [pid 3322] [client 127.0.0.1:45130] PHP   1. {main}() /var/www/mvc.local/index.php:0
+[Mon Apr 25 12:49:12.503511 2016] [:error] [pid 7683] [client 127.0.0.1:45254] PHP Fatal error:  Call to undefined method Application\\Controllers\\News::action1() in /var/www/mvc.local/Application/Controllers/News.php on line 21
+[Mon Apr 25 12:49:12.503543 2016] [:error] [pid 7683] [client 127.0.0.1:45254] PHP Stack trace:
+[Mon Apr 25 12:49:12.503559 2016] [:error] [pid 7683] [client 127.0.0.1:45254] PHP   1. {main}() /var/www/mvc.local/index.php:0
+[Mon Apr 25 12:49:12.503571 2016] [:error] [pid 7683] [client 127.0.0.1:45254] PHP   2. Application\\Controllers\\News->action() /var/www/mvc.local/index.php:8
